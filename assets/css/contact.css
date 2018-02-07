@@ -175,3 +175,71 @@ margin-left: 5%;
   padding-top: 30px;
   color: #cccccc;
   font-size: 15px;
+}
+
+  /*-------------------- @media 640 --------------------*/
+
+
+
+@media screen and (max-width: 640px) {
+
+  #form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #links {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+}
+
+#footer {
+  position: relative;
+}
+
+#headerLi {
+  margin-right: 0;
+}
+
+
+/*-------------------- @media 768 --------------------*/
+
+
+
+@media screen and (max-width: 768px) {
+
+  #about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #links {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+}
+
+#footer {
+  position: relative;
+}
+
+#headerLi {
+  margin-right: 0;
+}

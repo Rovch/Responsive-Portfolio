@@ -64,7 +64,6 @@
 
 /*---------------------- About me area holding bio and avi picture ----------------------*/
 #about {
-  position: relative;
   float: left;
   overflow: auto;
   background-color: #ffffff;
@@ -72,7 +71,7 @@
   margin-left: 5%;
   border: 2px solid #cccccc;
   width: 50%;
-  height: 500px;
+  height: auto;
 }
 
 #aboutMe {
@@ -99,21 +98,22 @@
 
 /*---------------------- connect with me area holding links to socail media ----------------------*/
 #github, #linkedin {
-  width: 60px;
-  height: 60px;
+  width: 30%;
+  height: 30%;
 }
 
 #stack {
-  padding-bottom: 4px;
-  width: 52px;
-  height: 52px;
+  padding-bottom: 3%;
+  width: 25%;
+  height: 25%;
 }
 
 
 #links {
-  height: 200px;
+  overflow: auto;
+  height: 20%;
   background-color: #ffffff;
-  width: 270px;
+  width: 15%;
   margin-right: 20%;
   margin-top: 2%;
   float: right;
@@ -121,9 +121,9 @@
 }
 
 #imgul {
-  padding: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
+  padding: 7%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 .imgli {
@@ -131,18 +131,18 @@
 }
 
 #linkh1 {
-  font-size: 25px;
+  font-size: 2em;
   color: #4aaaa5;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border-bottom: 2px solid #cccccc;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*-------------------- footer area ----------------------*/
 
-#realFooter {
+#footer {
   position: absolute;
   border-top: 4px solid #4aaaa5;
   clear: both;
@@ -151,7 +151,6 @@
   background-color: #666666;
   width: 100%;
   min-height: 100px;
-
 } 
 
 #footerh1 {
@@ -159,3 +158,66 @@
   color: #cccccc;
   font-size: 15px;
 }
+
+
+/*-------------------- @media --------------------*/
+
+
+
+@media screen and (max-width: 640px) {
+
+  #about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #links {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+
+  #footer {
+    position: relative;
+  }
+}
+
+/*-------------------- @media 768 --------------------*/
+
+
+
+@media screen and (max-width: 768px) {
+
+  #about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #links {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+}
+
+#footer {
+  position: relative;
+}
+
+#headerLi {
+  margin-right: 0;
+}
+
+/*-------------------- @media --------------------*/
