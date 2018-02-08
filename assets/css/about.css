@@ -68,7 +68,8 @@
   overflow: auto;
   background-color: #ffffff;
   margin-top: 2%;
-  margin-left: 5%;
+  margin-left: 10%;
+  margin-bottom: 10%;
   border: 2px solid #cccccc;
   width: 50%;
   height: auto;
@@ -143,7 +144,7 @@
 /*-------------------- footer area ----------------------*/
 
 #footer {
-  position: absolute;
+  position: relative;
   border-top: 4px solid #4aaaa5;
   clear: both;
   bottom: 0;
@@ -219,5 +220,3 @@
 #headerLi {
   margin-right: 0;
 }
-
-/*-------------------- @media --------------------*/

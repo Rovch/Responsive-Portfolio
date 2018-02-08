@@ -71,9 +71,10 @@
     background-color: #ffffff;
     margin-top: 2%;
     margin-left: 10%;
+    margin-bottom: 10%;
     border: 2px solid #cccccc;
-    width: 45%;
-    height: 70%;
+    width: 50%;
+    height: auto;
 }
 
 #portfolioh1 {
@@ -165,7 +166,7 @@
 /*-------------------- footer area ----------------------*/
 
 #footer {
-    position: absolute;
+    position: relative;
     border-top: 4px solid #4aaaa5;
     clear: both;
     bottom: 0;

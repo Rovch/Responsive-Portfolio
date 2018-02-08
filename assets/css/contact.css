@@ -66,13 +66,14 @@
 /*---------------------- form area  ----------------------*/
 #form {
   float: left;
-  overflow: auto;
+  /* overflow: auto; */
   background-color: #ffffff;
   margin-top: 2%;
   margin-left: 10%;
+  margin-bottom: 10%;
   border: 2px solid #cccccc;
-  width: 45%;
-  height: 67%;
+  width: 50%;
+  height: auto;
 }
 
 #formh1 {
@@ -161,7 +162,7 @@ margin-left: 5%;
 /*-------------------- footer area ----------------------*/
 
 #footer {
-  position: absolute;
+  position: relative;
   border-top: 4px solid #4aaaa5;
   clear: both;
   bottom: 0;
@@ -234,6 +235,24 @@ margin-left: 5%;
     overflow: hidden;
     margin-bottom: 40px;
   }
+
+
+  /* #footer {
+    position: relative;
+  }
+  
+  #headerLi {
+    margin-right: 0;
+  } */
+
+
+
+
+
+
+
+
+
 }
 
 #footer {
